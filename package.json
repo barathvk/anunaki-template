@@ -9,16 +9,11 @@
     "build": "astro build"
   },
   "dependencies": {
+    "@astrojs/tailwind": "^5.1.0",
     "@biomejs/biome": "^1.7.0",
     "@fontsource-variable/inter": "^5.0.17",
-    "@tailwindcss/postcss": "4.0.0-alpha.14",
     "astro": "^4.6.2",
-    "tailwindcss": "4.0.0-alpha.14"
-  },
-  "postcss": {
-    "plugins": {
-      "@tailwindcss/postcss": {}
-    }
+    "tailwindcss": "^3.4.3"
   },
   "devDependencies": {
     "@types/node": "^20.12.7"
